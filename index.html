@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Personal Portfolio - Bootstrap 5</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
+  </head>
+  <body class="bg-light">
+    <!-- navbar started -->
+
+    <nav class="navbar navbar-light fixed-top bg-light shadow-sm">
+      <div class="container-lg">
+        <a class="navbar-brand text-primary fw-bold fs-4" href="#">Portfolio</a>
+        <div class="dropdown">
+          <button
+            class="btn btn-primary px-3"
+            type="button"
+            id="dropdownMenuButton1"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <ul
+            class="dropdown-menu dropdown-menu-end"
+            aria-labelledby="dropdownMenuButton1"
+          >
+            <li><a class="dropdown-item" href="#home">Home</a></li>
+            <li><a class="dropdown-item" href="#about">About</a></li>
+            <li><a class="dropdown-item" href="#services">Service </a></li>
+            <li><a class="dropdown-item" href="#portfolio">Portfolio</a></li>
+            <li><a class="dropdown-item" href="#contact">Contacts</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- NAvbar Ends -->
+
+    <!-- home section started -->
+
+    <section class="home py-5" id="home">
+      <div class="container-lg">
+        <div class="row min-vh-100 align-items-center align-content-center">
+          <div class="col-md-6 mt-5 mt-md-0">
+            <div class="home-img text-center">
+              <img
+                class="rounded-circle mw-100"
+                src="img/profile1.png"
+                alt="Profile_img"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 mt-5 mt-md-0">
+            <div class="home-text">
+              <p class="text-muted mb-1">Hello I'm</p>
+              <h1 class="text-primary text-uppercase fs-1 fw-bold">
+                Web Developer
+              </h1>
+              <h2 class="fs-4">Hammad Bin Naveed</h2>
+              <p class="mt-4 text-muted">
+                Computer Science Graduate and Web Developer and designer with a
+                quality experience in the field of developement
+              </p>
+              <a href="#portfolio" class="btn btn-primary px-3 mt-3"
+                >Portfolio</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- home section ended -->
+
+    <!-- about section started -->
+
+    <section class="about py-5" id="about">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5">About Me</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="about-text">
+              <h3 class="fs-4 mb-3">
+                I am a Computer Science graduate from UET, Taxila with a
+                specialization in MERN stack development.
+              </h3>
+              <p class="text-muted">
+                I gained practical experience through as an MERN stack Intern at
+                Bitsole Technologies, where I developed web applications using
+                MongoDB, Express.js, React.js, and Node.js. I also gained
+                valuable experience in agile software development, teamwork, and
+                Git
+              </p>
+              <div class="row text-center text-uppercase my-3">
+                <div class="col-sm-4">
+                  <div class="fact-item">
+                    <h4 class="fs-1 fw-bold">100</h4>
+                    <p class="text-muted">Projects Completed</p>
+                  </div>
+                </div>
+
+                <div class="col-sm-4">
+                  <div class="fact-item">
+                    <h4 class="fs-1 fw-bold">90</h4>
+                    <p class="text-muted">Happy Clients</p>
+                  </div>
+                </div>
+
+                <div class="col-sm-4">
+                  <div class="fact-item">
+                    <h4 class="fs-1 fw-bold">95</h4>
+                    <p class="text-muted">Positive Reviews</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12 d-flex align-items-center">
+                  <a
+                    href="/src/CV.pdf"
+                    class="btn btn-primary me-2"
+                    target="_blank"
+                    >Download CV</a
+                  >
+                  <div class="social-links">
+                    <a href="#" class="text-primary me-4"
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+                    <a href="#" class="text-primary me-4"
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+                    <a href="#" class="text-danger me-4"
+                      ><i class="fab fa-instagram"></i
+                    ></a>
+                    <a href="#" class="text-primary me-4"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 mt-5 mt-md-0 px-5 py-5">
+            <div class="skill-item mb-4">
+              <h3 class="fs-6">HTML</h3>
+              <div class="progress" style="height: 5px">
+                <div
+                  class="progress-bar bg-primary"
+                  role="progressbar"
+                  style="width: 25%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+
+            <div class="skill-item mb-4">
+              <h3 class="fs-6">CSS</h3>
+              <div class="progress" style="height: 5px">
+                <div
+                  class="progress-bar bg-primary"
+                  role="progressbar"
+                  style="width: 50%"
+                  aria-valuenow="50"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+
+            <div class="skill-item mb-4">
+              <h3 class="fs-6">JAVASCRIPT</h3>
+              <div class="progress" style="height: 5px">
+                <div
+                  class="progress-bar bg-primary"
+                  role="progressbar"
+                  style="width: 75%"
+                  aria-valuenow="75"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+
+            <div class="skill-item mb-4">
+              <h3 class="fs-6">REACT</h3>
+              <div class="progress" style="height: 5px">
+                <div
+                  class="progress-bar bg-primary"
+                  role="progressbar"
+                  style="width: 90%"
+                  aria-valuenow="90"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section ended -->
+
+    <!-- SERVICES SECTION STARTS -->
+
+    <section class="services py-5" id="services">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5">What I Do</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="row text-center">
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="service-item shadow-sm p-4 rounded bg-white">
+              <div class="icon my-3 text-primary fs-2">
+                <i class="fas fa-code"></i>
+              </div>
+              <h3 class="fs-5 py-2">Web development</h3>
+              <p class="text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="service-item shadow-sm p-4 rounded bg-white">
+              <div class="icon my-3 text-primary fs-2">
+                <i class="fas fa-lightbulb"></i>
+              </div>
+              <h3 class="fs-5 py-2">Creative Design</h3>
+              <p class="text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="service-item shadow-sm p-4 rounded bg-white">
+              <div class="icon my-3 text-primary fs-2">
+                <i class="fas fa-desktop"></i>
+              </div>
+              <h3 class="fs-5 py-2">Responsiveness</h3>
+              <p class="text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES SECTION END -->
+
+    <!-- portfolio section started -->
+
+    <section class="portfolio py-5" id="portfolio">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5">Latest Work</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-items">
+              <img
+                src="img/portfolio/1.jpg"
+                class="w-100 img-thumbnail"
+                alt="portfolio items"
+              />
+              <h3 class="text-capitalize fs-5 my-2">Team Selection</h3>
+              <p class="mb-4">
+                <a href="#" class="text-primary text-decoration-none"
+                  >Live Demo</a
+                >
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-items">
+              <img
+                src="img/portfolio/2.jpg"
+                class="w-100 img-thumbnail"
+                alt="portfolio items"
+              />
+              <h3 class="text-capitalize fs-5 my-2">App Landing</h3>
+              <p class="mb-4">
+                <a href="#" class="text-primary text-decoration-none"
+                  >Live Demo</a
+                >
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-items">
+              <img
+                src="img/portfolio/3.jpg"
+                class="w-100 img-thumbnail"
+                alt="portfolio items"
+              />
+              <h3 class="text-capitalize fs-5 my-2">
+                Creative Team Deceoration
+              </h3>
+              <p class="mb-4">
+                <a href="#" class="text-primary text-decoration-none"
+                  >Live Demo</a
+                >
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-items">
+              <img
+                src="img/portfolio/4.jpg"
+                class="w-100 img-thumbnail"
+                alt="portfolio items"
+              />
+              <h3 class="text-capitalize fs-5 my-2">Toggle Pricing Table</h3>
+              <p class="mb-4">
+                <a href="#" class="text-primary text-decoration-none"
+                  >Live Demo</a
+                >
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-items">
+              <img
+                src="img/portfolio/5.jpg"
+                class="w-100 img-thumbnail"
+                alt="portfolio items"
+              />
+              <h3 class="text-capitalize fs-5 my-2">
+                Bootstrap 5 Image gallery
+              </h3>
+              <p class="mb-4">
+                <a href="#" class="text-primary text-decoration-none"
+                  >Live Demo</a
+                >
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-items">
+              <img
+                src="img/portfolio/6.jpg"
+                class="w-100 img-thumbnail"
+                alt="portfolio items"
+              />
+              <h3 class="text-capitalize fs-5 my-2">
+                Filterable Image Gallery
+              </h3>
+              <p class="mb-4">
+                <a href="#" class="text-primary text-decoration-none"
+                  >Live Demo</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio section ended -->
+
+    <!-- Freelance available section start -->
+
+    <section class="freelancer-available py-5">
+      <div class="container-lg py-4 bg-primary">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <p class="text-light fs-5">Do you have any project</p>
+            <h2 class="fs-1 text-white mb-40">
+              I'm Available For Freelance Projects
+            </h2>
+            <a
+              href="mailto:hammadbinnaveed999@gmail.com"
+              class="btn btn-outline-light"
+              target="_blank"
+              >Hire Me</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Freelance available section end -->
+
+    <!-- contact started -->
+
+    <section class="contact py-5" id="contact">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5">Contact Me</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-5">
+            <div class="contact-item d-flex mb-3">
+              <div class="icon fs-4 text-primary">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="text ms-3">
+                <h3 class="fs-5">Email</h3>
+                <p class="text-muted">hammadbinnaveed@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="contact-item d-flex mb-3">
+              <div class="icon fs-4 text-primary">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="text ms-3">
+                <h3 class="fs-5">Phone No</h3>
+                <p class="text-muted">+92 318-1982707</p>
+              </div>
+            </div>
+
+            <div class="contact-item d-flex">
+              <div class="icon fs-4 text-primary">
+                <i class="fas fa-map-marked-alt"></i>
+              </div>
+              <div class="text ms-3">
+                <h3 class="fs-5">Visit Office</h3>
+                <p class="text-muted">Islamabad , pakistan</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-7">
+            <div class="contact-form">
+              <form action="#">
+                <div class="row">
+                  <div class="col-lg-6 mb-4">
+                    <input
+                      type="text"
+                      placeholder="Your name"
+                      class="form-control form-control-lg fs-6 border-0 shadow-sm"
+                    />
+                  </div>
+
+                  <div class="col-lg-6 mb-4">
+                    <input
+                      type="text"
+                      placeholder="Your Email"
+                      class="form-control form-control-lg fs-6 border-0 shadow-sm"
+                    />
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-lg-12 mb-4">
+                    <input
+                      type="text"
+                      placeholder="Subject"
+                      class="form-control form-control-lg fs-6 border-0 shadow-sm"
+                    />
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-lg-12 mb-4">
+                    <textarea
+                      type="text"
+                      placeholder="Your Message"
+                      rows="5"
+                      class="form-control form-control-lg fs-6 border-0 shadow-sm"
+                    ></textarea>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-lg-12">
+                    <button class="btn btn-primary px-3">Send Message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact ended -->
+  </body>
+  <!-- <script src="js/bootstrap.bundle.min.js"></script> -->
+  <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+</html>
